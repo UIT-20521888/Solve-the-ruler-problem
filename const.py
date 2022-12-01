@@ -1,0 +1,41 @@
+import pygame as pg
+#TEXT
+TEXT_LEN="Enter the ruler length"
+TEXT_HIGHT="Enter the ruler height"
+TEXT_DRAW="Draw"
+TEXT_STOPDRAW="Stop Drawing"
+TEXT_QUIT="Quit"
+#SIZE IMAGE
+SIZE_IMAGE =(400,300)
+#SCREEN
+WIDTH_SCREEN=800
+HEIGHT_SCREEN=600
+#FONT
+pg.init()
+FONT = pg.font.SysFont('asset/font/FreeSansBold.ttf', 32)
+#COLOR
+COLOR_INACTIVE = (141,182,205)
+COLOR_BLACK=(0,0,0)
+COLOR_ACTIVE = (28,134,238)
+COLOR_RED=(255,0,0)
+COLOR_ORANGE=(255 ,165, 0)
+#BOX
+BOX_INPUT_LEN={"X":500,"Y": 330,"W": 140,"H":32}
+BOX_INPUT_HEIGHT={"X":500,"Y": 410,"W":140,"H": 32}
+#RECT_BOX
+RECT_QUIT=pg.Rect(530, 530, 140, 32)
+RECT_DRAW=pg.Rect(530, 470, 140, 32)
+#POIN TEXT
+POIN_TEXT_INPUT_LEN=(600, 320)
+POIN_TEXT_INPUT_HEIGHT=(600, 400)
+POIN_DRAW=(600, 486)
+POIN_QUIT=(600, 546)
+POIN_IMAGE=(400,0)
+POIN_ORANGE=(400, 0, 800, 600)
+POIN_INACTIVE=(0, 0, 400, 600)
+#IMAGE
+IMAGE=pg.image.load("asset/image/anime_2.jpg")
+
+# IMAGE=pg.image.load("kẻ thước/asset/image/anime.jpg")
+#Increase H
+INCREASE_H=10
